@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "to-do-manager"
+version = "0.1.0"
+description = "Project to learn FastAPI"
+authors = ["Elise Pitel <elise.pitel@wefox.com>"]
+readme = "README.md"
+packages = [{include = "to_do_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+pydantic = "^1.10.4"
+black = "^22.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
